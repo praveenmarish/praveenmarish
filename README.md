@@ -5,3 +5,5 @@
 
 - I like to learn new things
 - I love programming
+
+<img src="https://github-readme-stats.vercel.app/api?username=praveenmarish&&show_icons=true">
