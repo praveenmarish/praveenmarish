@@ -7,4 +7,7 @@
 - I like to learn new things
 - I love programming
 
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=praveenmarish&theme=dark&layout=compact)
+
 <img src="https://github-readme-stats.vercel.app/api?username=praveenmarish&&show_icons=true">
