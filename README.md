@@ -8,4 +8,4 @@
 - I love programming
 
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=praveenmarish&theme=green&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=praveenmarish&theme=dark-green&layout=compact)
