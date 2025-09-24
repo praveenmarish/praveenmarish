@@ -11,5 +11,5 @@
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=praveenmarish&theme=vue-dark&layout=compact)
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=praveenmarish&theme=radical&layout=compact)
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=praveenmarish&theme=vue-dark&layout=compact)
 
