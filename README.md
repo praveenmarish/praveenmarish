@@ -10,4 +10,5 @@
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=praveenmarish&theme=vue-dark&layout=compact)
 
-![Top Langs](top-langs.png)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=praveenmarish&theme=vue-dark&layout=compact&hide=html,css&hide_title=false&token=${{ secrets.GH_TOKEN }})
+
