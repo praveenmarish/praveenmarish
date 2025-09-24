@@ -1,25 +1,25 @@
-name: Update GitHub Stats
+name: Update Top Langs
 
 on:
   schedule:
-    - cron: '0 0 * * *' # runs daily at midnight
-  workflow_dispatch: # allows manual trigger
+    - cron: '0 0 * * *' # daily
+  workflow_dispatch:
 
 jobs:
-  generate-stats:
+  update-langs:
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v3
 
-      - name: Generate Top Langs Image
+      - name: Download Top Langs SVG
         run: |
-          curl -o top-langs.png "https://github-readme-stats.vercel.app/api/top-langs/?username=praveenmarish&theme=vue-dark&layout=compact&hide=html,css&hide_title=false&token=${{ secrets.GH_TOKEN }}"
+          curl -o top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=praveenmarish&theme=vue-dark&layout=compact&hide=html,css&hide_title=false&token=${{ secrets.GH_TOKEN }}"
 
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add top-langs.png
-          git commit -m "Update GitHub stats"
+          git add top-langs.svg
+          git commit -m "Update Top Langs SVG"
           git push
