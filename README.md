@@ -7,6 +7,7 @@
 - I like to learn new things
 - I love programming
 
+![](https://komarev.com/ghpvc/?username=praveenmarish)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=praveenmarish&theme=vue-dark&layout=compact)
 
