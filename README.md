@@ -6,3 +6,5 @@
 
 - I like to learn new things
 - I love programming
+
+![](https://komarev.com/ghpvc/?username=praveenmarish)
